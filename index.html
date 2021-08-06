@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="img/icon.ico">
+
+  <title>Countdown-Timer</title>
+
+  <!-- MY-CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- SCRIPTS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+  <script src="js/index.js" defer></script>
+
+</head>
+
+<body>
+
+  <audio autoplay loop>
+  <source src="aud/music.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+  </audio>
+
+  <!-- <img class="sticker-1" src="https://static.wixstatic.com/media/de48d6_75c661e5e13445b2ac52a2391da3c3af~mv2.gif" alt="">
+  <img class="sticker-2" src="https://media2.giphy.com/media/ValMJEedPl2aL4nbbr/giphy.gif?cid=6c09b952lxb70qz5eamadjyzsg42n88e8igvrz5k8apnw11y&rid=giphy.gif" alt="">
+  <img class="sticker-3" src="https://static.wixstatic.com/media/de48d6_75c661e5e13445b2ac52a2391da3c3af~mv2.gif" alt=""> -->
+
+
+
+  <h1 class="timer-head">Birthday Timer</h1>
+  <div class="countdown-container">
+
+    <!-- DAYS -->
+    <div class="slot days-container">
+      <p class="big-text gradient-text" id="days">0</p>
+      <span>days</span>
+    </div>
+
+    <!-- HOURS -->
+    <div class="slot hrs-container">
+      <p class="big-text gradient-text" id="hrs">0</p>
+      <span>hours</span>
+    </div>
+
+    <!-- MINS -->
+    <div class="slot mins-container">
+      <p class="big-text gradient-text" id="mins">0</p>
+      <span>mins</span>
+    </div>
+
+    <!-- SECS -->
+    <div class="slot secs-container">
+      <p class="big-text gradient-text" id="secs">0</p>
+      <span>secs</span>
+    </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
