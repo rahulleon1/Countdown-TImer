@@ -2,15 +2,19 @@
 const yearArray= [
   {
   dates: "26 jun 2022",
-  names: "MK"
+  names: "Bot1"
 },
 {
   dates: "12 sep 2021",
-  names: "Shahid"
+  names: "Bot2"
 },
 {
   dates: "15 sep 2021",
-  names: "SR"
+  names: "Bot3"
+},
+{
+  dates: "12 sep 2021",
+  names: "Bot4"
 }
 ];
 
